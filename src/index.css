@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90vw;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: #404040;
+
+}
+
+.input {
+  font-size: 25px;
+  width: 30vw;
+  text-align: center;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.search-button {
+  font-size: 22px;
+  border-radius: 10px;
+  background-color: #7CFFCB;
+  padding: 4px 12px;
+}
+
+.images {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 38vw;
+  height: 50vh;
+  border: 10px solid #7CFFCB;
+  background-image: url("http://az616578.vo.msecnd.net/files/2016/10/04/636111373950061668-1682690715_1.jpg");
+  background-size: 120%;
+  border-radius: 10px;
+}
+
+#map {
+  border: 10px solid #7CFFCB;
+  border-radius: 10px;
+}
+
+.weather {
+  width: 50vw;
+  margin: 10px auto;
+}
